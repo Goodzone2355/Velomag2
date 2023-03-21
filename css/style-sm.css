@@ -75,16 +75,21 @@
     .footer-menu{
         display: flex;
         flex-direction: column;
+        margin: 0 2vh;
     }
 
     .footer-menu li{
-        margin: 1vh
+        margin: 1vh 0
     }
     .footer-menu2 li:nth-child(1)::before{
         font-family: FontAwesome;
         content: "\f124";
         color: #fff;
         font-size: 14px;
+    }
+
+    .start{
+        margin-left: 2vh;
     }
 
     .footer-menu2 li:nth-child(1){
