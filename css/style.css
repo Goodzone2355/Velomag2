@@ -574,3 +574,9 @@ footer{
     color: #fff;
     font-size: 22px;
 }
+
+.logo-img-footer{
+    object-fit: contain;
+    width: 100px;
+    height: 25px;
+}
