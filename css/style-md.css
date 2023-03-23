@@ -14,7 +14,8 @@
     }
 
     .logo-img{
-        object-fit: contain;
+        -o-object-fit: contain;
+           object-fit: contain;
         width: 100px;
     }
 
@@ -31,6 +32,8 @@
     }
 
     .loopa-function{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         font-size: 33px;
         
